@@ -1,0 +1,33 @@
+{
+  "name": "clu-dnode",
+  "version": "0.1.0",
+  "description": "Dnode server for clu",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiws/clu-dnode"
+  },
+  "keywords": [
+    "clu",
+    "cluster",
+    "dnode"
+  ],
+  "author": "Filip Weiss <me@fiws.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiws/clu-dnode/issues"
+  },
+  "dependencies": {
+    "dnode": "~1.0.5",
+    "lodash": "~2.2.1"
+  },
+  "devDependencies": {
+    "clu": "~0.2.0",
+    "should": "~1.3.0",
+    "rimraf": "~2.2.2",
+    "mocha": "~1.13.0"
+  }
+}
