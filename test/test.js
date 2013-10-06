@@ -46,10 +46,6 @@ describe("clu.use clu-dnode", function(){
 		var d = dnode();
 		var remote;
 
-		before(function(done){
-			setTimeout(done, 500);
-		});
-
 		it("connect", function(done){
 			d.on('remote', function (rem) {
 				remote = rem;
